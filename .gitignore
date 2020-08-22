@@ -1,0 +1,12 @@
+dist
+node_modules
+bin
+obj
+**/js/**/*.js
+**/js/**/*.js.map
+appsettings.*.json
+.vs
+*.csproj.user
+**/TestResults/**
+global.json
+scripts

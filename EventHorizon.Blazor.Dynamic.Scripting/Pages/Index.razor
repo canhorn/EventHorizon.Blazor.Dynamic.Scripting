@@ -1,0 +1,18 @@
+﻿@page "/"
+@inherits IndexModel
+
+<h1>Script Client</h1>
+<button @onclick="HandleRunScript">Run Script</button>
+<p>The script will fire off a JavaScript <code>alert('hi')</code>, trigged from <code>ClientInteropImplementation.cs</code> that is passed to the Script. Check the logs for <code>Console.WriteLines</code> triggered from the Script and the Result from the Script will also be logged.</p>
+
+Example From Logs:
+<pre>
+From Client Handler: Script Command Echo Arg
+From Event Handler: Script Event Echo Arg
+From Script: GenericModel.Value 1
+From Script: GenericModel.Value 2
+From Script: GenericModel.Value 3
+From Script: GenericModel.Value 4
+Script.Run(): From Script: Argument from Client
+</pre>
+
