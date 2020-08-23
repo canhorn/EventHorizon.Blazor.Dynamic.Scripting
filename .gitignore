@@ -9,4 +9,4 @@ appsettings.*.json
 *.csproj.user
 **/TestResults/**
 global.json
-scripts
+**/scripts/[S|s]cripts.dll
