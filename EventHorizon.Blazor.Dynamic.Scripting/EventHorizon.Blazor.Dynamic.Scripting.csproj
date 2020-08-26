@@ -14,10 +14,10 @@
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.7.0" />
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="3.7.0" />
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="3.7.0" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.0-preview.7.20365.19" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.0-preview.7.20365.19" PrivateAssets="all" />
-        <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0-preview.7.20364.11" />
-        <PackageReference Include="System.Net.Http.Json" Version="5.0.0-preview.7.20364.11" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.0-preview.8.20414.8" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.0-preview.8.20414.8" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0-preview.8.20407.11" />
+        <PackageReference Include="System.Net.Http.Json" Version="5.0.0-preview.8.20407.11" />
 
         <PackageReference Include="EventHorizon.Blazor.Interop" Version="0.1.0-preview0009" />
     </ItemGroup>
